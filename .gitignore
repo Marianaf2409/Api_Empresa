@@ -1,0 +1,41 @@
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Ignorar carpetas de compilación
+bin/
+obj/
+
+# Ignorar configuraciones de publicación
+*.Publish.xml
+*.pubxml
+*.publishproj
+
+# Ignorar archivos de logs y temporales
+*.log
+*.tlog
+*.tmp
+
+# Ignorar resultados de pruebas
+TestResult*/
+*.VisualState.xml
+
+# Ignorar caches de NuGet
+*.nuget.props
+*.nuget.targets
+project.lock.json
+*.nupkg
+
+# Ignorar configuraciones de IDEs
+.vscode/
+.idea/
+
+# Ignorar archivos del sistema
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Ignorar configuración local
+launchSettings.json
